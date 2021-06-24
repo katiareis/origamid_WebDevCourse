@@ -3,18 +3,11 @@ Projeto Final do Curso Web Design Completo da Origamid - Site Responsivo do Zero
 
 Projeto Bikcraft Web Page
 
-HTML5
-UX Design
-CSS3
-SEO
-Tipografia
-UI Design
-JavaScript
-Grid
+HTML5 | CSS3 & Grid | JavaScript
+
+UX Design & Usabilidade | UI Design | Tipografia | Cores
+SEO | Analytics | Otimização
+
+Adobe XD - Wireframe & Codificação do Zero
+
 Host
-Otimização
-Adobe XD - Wireframe
-Codificação do Zero
-Usabilidade
-Cores
-Analytics
