@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/contato.css">
         <link rel="stylesheet" href="css/responsivo.css">
-        
+        <script>document.documentElement.classList.add("js");</script>
     </head>
     <!-- Projeto de Site Responsivo --> <!-- Shift + Alt + A -->
     <body><!-- Menu de Navegação  -->
@@ -33,13 +33,13 @@
         <!-- Introdução - Contato -->
         <section class="introducao-interna interna_contato">
             <div class="container">
-                <h1>Contato</h1>
-                <p>Tire suas dúvidas com a gente</p>
+                <h1 data-anime="400" class="fadeInDown">Contato</h1>
+                <p data-anime="800" class="fadeInDown">Tire suas dúvidas com a gente</p>
             </div>
         </section>
        
         <!-- Seção de Contato -->
-        <section class="contato container">
+        <section data-anime="1200" class="contato container fadeInDown">
 
                 <form  id="form_contato" action="" class="contato_form grid-8">
                     <label for="nome">Nome</label>
@@ -71,7 +71,7 @@
                 </div>
             </section>
             
-            <section class="container contato_mapa">
+            <section data-anime="2000" class="container contato_mapa fadeInDown">
                 <a href="https://www.google.com/maps" target="_blank" class="grid-16"><img src="img/endereco-bikcraft-sp.jpg" alt="Endereço da Bikcraft"></a>
             </section>
             
@@ -117,8 +117,11 @@
                 <div class="container">
                     <p class="grid-16">Bikcraft 2021 - Alguns direitos reservados.</p>
                 </div>   
-            </div>
-        
+            </div>        
         </footer>
+        <!-- JavaScript -->
+        <script src="./js/simple-anime.js"></script>
+        <script src="./js/script.js"></script>
+        <!-- JavaScript -->
     </body>
 </html>

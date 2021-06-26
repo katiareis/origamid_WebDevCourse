@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/produtos.css">
         <link rel="stylesheet" href="css/responsivo.css">
-        
+        <script>document.documentElement.classList.add("js");</script>        
     </head>
     <!-- Projeto de Site Responsivo --> <!-- Shift + Alt + A -->
     <body><!-- Menu de Navegação  -->
@@ -33,13 +33,13 @@
         <!-- Introdução - Produtos-->
         <section class="introducao-interna interna_produtos">
             <div class="container">
-                <h1>Produtos</h1>
-                <p>Conheça todos os nossos produtos</p>
+                <h1 data-anime="400" class="fadeInDown">Produtos</h1>
+                <p data-anime="800" class="fadeInDown">Conheça todos os nossos produtos</p>
             </div>
         </section>
 
          <!-- Seção de produtos -->
-        <section class="container produto_item">
+        <section data-anime="1200" class="container produto_item fadeInDown">
             <div class="grid-11">
                 <img src="img/produtos/bikcraft-passeio-1.jpg" alt="Bikcraft Passeio">
                 <h2>Passeio</h2>               
@@ -59,7 +59,7 @@
 			</div>
         </section>
 
-        <section class="container produto_item">
+        <section data-anime="1600" class="container produto_item fadeInDown">
             <div class="grid-11">
                 <img src="img/produtos/bikcraft-esporte-1.jpg" alt="Bikcraft Esporte">
                 <h2>Esporte</h2>               
@@ -79,7 +79,7 @@
 			</div>
         </section>
 
-        <section class="container produto_item">
+        <section data-anime="2000" class="container produto_item fadeInDown">
             <div class="grid-11">
                 <img src="img/produtos/bikcraft-retro-1.jpg" alt="Bikcraft Retro">
                 <h2>Retro</h2>               
@@ -175,8 +175,12 @@
                 <div class="container">
                     <p class="grid-16">Bikcraft 2021 - Alguns direitos reservados.</p>
                 </div>   
-            </div>
-        
+            </div>        
         </footer>
+        <!-- JavaScript -->
+        <script src="./js/simple-anime.js"></script>
+        <script src="./js/script.js"></script>
+        <!-- JavaScript -->
+        
     </body>
 </html>

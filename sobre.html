@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/sobre.css">
     <link rel="stylesheet" href="css/responsivo.css">
+    <script>document.documentElement.classList.add("js");</script>
 </head>
 <!-- Projeto de Site Responsivo --> <!-- Shift + Alt + A -->
 <body><!-- Menu de Navegação  -->
@@ -32,12 +33,12 @@
      <!-- Introdução - Sobre -->
     <section class="introducao-interna interna-sobre">
         <div class="container">
-            <h1>Sobre</h1><!-- Título principal do site -->
-            <p>Conheça mais sobre a Bikcraft</p>
+            <h1 data-anime="400" class="fadeInDown">Sobre</h1><!-- Título principal do site -->
+            <p data-anime="800" class="fadeInDown">Conheça mais sobre a Bikcraft</p>
         </div>
     </section>
    <!-- Seção de Missão -->
-    <section class="missao_sobre container">
+    <section data-anime="1200" class="missao_sobre container fadeInDown">
         <div class="grid-10">
             <h2 class="subtitulo-interno">História, Missão e Visão</h2>
             <p>No mundo atual, a contínua expansão de nossa atividade cumpre um papel essencial na formulação da gestão inovadora da qual fazemos parte da qual fazemos parte.</p>
@@ -118,7 +119,10 @@
                 <p class="grid-16">Bikcraft 2021 - Alguns direitos reservados.</p>
             </div>   
         </div>
-    
     </footer>
+    <!-- JavaScript -->
+    <script src="./js/simple-anime.js"></script>
+    <script src="./js/script.js"></script>
+    <!-- JavaScript -->
 </body>
 </html>
