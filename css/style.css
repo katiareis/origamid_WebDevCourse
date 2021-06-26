@@ -18,6 +18,7 @@ p {
 
 img {
     display: block;
+    max-width: 100%;
 }
 
 /* Botões */
@@ -209,6 +210,10 @@ img {
     text-align: center;
 }
 
+.produtos_lista li img {
+	margin: 0 auto;
+}
+
 .produtos_lista li h3 {
     font-weight: bold;
     font-size: 18px;
@@ -233,7 +238,7 @@ img {
 
 .produtos_icone {
     background: #000;
-    padding: 20px;
+    padding: 20px;   
 }
 
 .call {
